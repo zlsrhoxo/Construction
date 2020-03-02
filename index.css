@@ -1,0 +1,73 @@
+ html, body{
+   scroll-behavior: smooth;
+  margin: 0;
+  height: 100%;
+
+}
+.navigationbar ul {
+list-style: none;
+margin-top: -50px;
+text-align: center;
+}
+
+.menuitem ul li{
+
+  display: inline-grid;
+  padding: 15px;
+
+}
+.navigationbar ul li a{
+  text-decoration: none;
+margin-left: 40px;
+color: white;
+
+}
+.top{
+  display: inline-grid;
+align-items: center;
+grid-template-columns: auto auto;
+grid-column-gap: 300px;
+padding: 10px;
+background: #09071C;
+color: white;
+width: 100%;
+height: 100%;
+}
+
+
+.logo img{
+  height: 60px;
+}
+.navigationbar{
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/catarpilar.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 300px;
+color: white;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 40px;
+}
+button{
+  background:#CE9510;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border: 2px solid #CE9510;
+  font-size: 15px;
+
+}
+.menuitem{
+  padding-bottom: 50px;
+}
+#home{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 20px;
+}
+intro-3{
+  height: -20px;
+}
