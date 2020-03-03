@@ -1,5 +1,6 @@
  html, body{
    scroll-behavior: smooth;
+   font-family:'Barlow Semi Condensed',sans-serif;
   margin: 0;
   height: 100%;
 
@@ -21,6 +22,10 @@ text-align: center;
 margin-left: 40px;
 color: white;
 
+
+}
+.navigationbar a:hover{
+  color: red;
 }
 .top{
   display: inline-grid;
@@ -37,13 +42,17 @@ height: 100%;
 
 .logo img{
   height: 60px;
+padding: 10px;
 }
 .navigationbar{
-background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/catarpilar.jpeg");
+background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/catarpilar.jpeg");
 background-size: cover;
 background-repeat: no-repeat;
 min-height: 300px;
 color: white;
+}
+.navigationbar p{
+margin-top: -80px;
 }
 h1{
   font-size: 50px;
@@ -67,7 +76,47 @@ button{
   display: grid;
   grid-template-columns: auto auto auto;
   padding-top: 20px;
+  text-align: center;
+
+}
+#home h1{
+  margin-bottom:-80px;
+}
+h3{
+  font-size: 30px;
 }
 intro-3{
   height: -20px;
+}
+#OurSkills{
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("..//images/mtn.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  color: white;
+text-align: center;
+}
+#OurSkills  h2,p{
+padding-top: 100px;
+}
+#OurSkills p{
+  font-size: 20px;
+  margin-top: -80px;
+}
+#OurWorks{
+  text-align: center;
+}
+#OurWorks p{
+  margin-top: -80px;
+  font-size: 20px;
+}
+#OurWorks{
+  background-color: #f9f9ff;
+
+}
+#footer{
+text-align: center;
+}
+#footer h4,p{
+  padding-top: 50px;
 }
